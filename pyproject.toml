@@ -20,6 +20,7 @@ langgraph-cli = "^0.1.52"
 streamlit = "^1.39.0"
 langchain-groq = "^0.2.1"
 python-dotenv = "^1.0.1"
+gradio = "^5.4.0"
 
 
 [build-system]
