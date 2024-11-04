@@ -1,9 +1,6 @@
 from langchain_core.messages import SystemMessage, HumanMessage, AIMessage
 from src.agent.agent import create_agent
 from src.config import SYSTEM_PROMPT
-from dotenv import load_dotenv
-
-load_dotenv()
 
 def main():
     app = create_agent()
